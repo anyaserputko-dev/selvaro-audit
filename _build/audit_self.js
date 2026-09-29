@@ -3,7 +3,7 @@ const CHROME='/Users/annserputko/.cache/puppeteer/chrome/mac_arm-127.0.6533.88/c
 const URL=process.argv[2]||'https://anyaserputko-dev.github.io/selvaro-audit/';
 (async()=>{const b=await puppeteer.launch({executablePath:CHROME,headless:'new',args:['--no-sandbox','--hide-scrollbars']});
 const p=await b.newPage(); await p.setViewport({width:1360,height:1000});
-await p.goto(URL,{waitUntil:'load',timeout:90000}); await new Promise(r=>setTimeout(r,2500));
+await p.goto(URL,{waitUntil:'domcontentloaded',timeout:60000}); await new Promise(r=>setTimeout(r,2500));
 const r=await p.evaluate(()=>{
  const ids=[...document.querySelectorAll('[id]')].map(e=>e.id);
  const links=[...document.querySelectorAll('a[href^="#"]')].map(a=>({txt:(a.querySelector('b')?a.querySelector('b').innerText:a.innerText).replace(/\s+/g,' ').trim().slice(0,60),href:a.getAttribute('href'),ok:ids.includes(a.getAttribute('href').slice(1))}));
