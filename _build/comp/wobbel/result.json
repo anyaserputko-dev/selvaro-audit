@@ -1,0 +1,60 @@
+{
+ "url": "https://www.wobbel.eu/de/",
+ "slug": "wobbel",
+ "home": {
+  "shot": "img/wobbel-home.jpg",
+  "check": {
+   "atc": null,
+   "stickyAtc": false,
+   "reviewApp": "unknown-widget",
+   "starsTxt": null,
+   "trustedShops": false,
+   "paypal": false,
+   "klarna": false,
+   "bnpl": false,
+   "shippingBar": false,
+   "shippingText": ".vfm--fixed{position:fixed}.vfm--absolute{position:absolute}.vfm--inset{top:0;right:0;bottom:0;left:0}.vfm--overlay{z-index:-1;background-co",
+   "backInStock": false,
+   "bundle": false,
+   "ageGuide": true,
+   "popup": false,
+   "search": false,
+   "chat": false,
+   "drawer": true,
+   "swatches": false,
+   "priceTxt": null,
+   "filters": false,
+   "title": "Wobbel | Balance Board fur Kinder & Wackelbrett. Das originale Holz Balance Boar"
+  },
+  "shotMid": "img/wobbel-home-mid.jpg"
+ },
+ "product": {},
+ "collection": {
+  "shot": "img/wobbel-collection.jpg",
+  "check": {
+   "atc": null,
+   "stickyAtc": false,
+   "reviewApp": "none",
+   "starsTxt": null,
+   "trustedShops": false,
+   "paypal": false,
+   "klarna": false,
+   "bnpl": false,
+   "shippingBar": false,
+   "shippingText": ".vfm--fixed{position:fixed}.vfm--absolute{position:absolute}.vfm--inset{top:0;right:0;bottom:0;left:0}.vfm--overlay{z-index:-1;background-co",
+   "backInStock": false,
+   "bundle": false,
+   "ageGuide": false,
+   "popup": false,
+   "search": false,
+   "chat": false,
+   "drawer": true,
+   "swatches": false,
+   "priceTxt": null,
+   "filters": false,
+   "title": "Wobbel | The original wobble board & wooden balance board for kids and toddlers "
+  }
+ },
+ "errors": [],
+ "productUrl": null
+}

@@ -1,0 +1,33 @@
+const puppeteer=require('/Users/annserputko/Desktop/штаб/_Технічне/chrome-mcp-server/node_modules/puppeteer-core');
+const fs=require('fs');
+const CHROME='/Users/annserputko/.cache/puppeteer/chrome/mac_arm-127.0.6533.88/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing';
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+(async()=>{
+ const b=await puppeteer.launch({executablePath:CHROME,headless:'new',args:['--no-sandbox','--hide-scrollbars']});
+ const p=await b.newPage(); await p.setViewport({width:1440,height:900,deviceScaleFactor:1});
+ const reqs=[]; p.on('response',r=>{try{reqs.push({url:r.url(),status:r.status(),len:+(r.headers()['content-length']||0)})}catch(e){}});
+ await p.goto('https://axyglobal.com/en/',{waitUntil:'networkidle0',timeout:90000}); await sleep(1500);
+ const R={};
+ R.hero=await p.evaluate(()=>{const v=document.querySelector('video');const r=v.getBoundingClientRect();const img=document.querySelector('#hero img[src*=image]');const ir=img?img.getBoundingClientRect():null;return {video:{w:Math.round(r.width),h:Math.round(r.height),y:Math.round(r.top),readyState:v.readyState,paused:v.paused,currentTime:v.currentTime,error:v.error&&v.error.code,poster:v.poster,networkState:v.networkState},img:ir&&{w:Math.round(ir.width),h:Math.round(ir.height),y:Math.round(ir.top)}}});
+ await sleep(2000); R.heroAfter2s=await p.evaluate(()=>{const v=document.querySelector('video');return {paused:v.paused,currentTime:v.currentTime,readyState:v.readyState}});
+ await p.screenshot({path:'shots/axy-d-hero.png'});
+ R.team=await p.evaluate(async()=>{document.getElementById('team').scrollIntoView();await new Promise(r=>setTimeout(r,900));return [...document.querySelectorAll('#team img')].filter(i=>i.getBoundingClientRect().width>0).map(i=>({src:i.getAttribute('src').split('/').pop(),w:Math.round(i.getBoundingClientRect().width),h:Math.round(i.getBoundingClientRect().height)}))});
+ await p.screenshot({path:'shots/axy-d-team.png'});
+ R.services=await p.evaluate(async()=>{document.getElementById('services').scrollIntoView();await new Promise(r=>setTimeout(r,900));return [...document.querySelectorAll('#services-grid > *')].map(c=>({w:Math.round(c.getBoundingClientRect().width),h:Math.round(c.getBoundingClientRect().height)}))});
+ await p.screenshot({path:'shots/axy-d-services.png'});
+ await p.evaluate(async()=>{document.getElementById('cases').scrollIntoView();await new Promise(r=>setTimeout(r,900))});
+ // hover first case
+ const box=await p.evaluate(()=>{const c=document.querySelector('.portfolio-case');const r=c.getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2}});
+ await p.mouse.move(box.x,box.y); await sleep(600);
+ R.caseHover=await p.evaluate(()=>({btnOpacity:getComputedStyle(document.querySelector('.portfolio-case .case-details-btn')).opacity}));
+ await p.screenshot({path:'shots/axy-d-cases-hover.png'});
+ await p.evaluate(async()=>{document.getElementById('contacts').scrollIntoView();await new Promise(r=>setTimeout(r,900))});
+ await p.screenshot({path:'shots/axy-d-footer.png'});
+ R.footerIcons=await p.evaluate(()=>[...document.querySelectorAll('footer a[href*=linkedin],footer a[href*=instagram],footer a[href*=facebook]')].map(a=>({w:Math.round(a.getBoundingClientRect().width),h:Math.round(a.getBoundingClientRect().height)})));
+ R.h1count=await p.evaluate(()=>document.querySelectorAll('h1').length);
+ R.schema=await p.evaluate(()=>[...document.querySelectorAll('script[type="application/ld+json"]')].map(s=>{try{const j=JSON.parse(s.textContent);return j['@type']||(j['@graph']||[]).map(x=>x['@type'])}catch(e){return 'ERR'}}));
+ R.videoReq=reqs.filter(r=>/banner\.mp4|image\.png/.test(r.url)).map(r=>({u:r.url.split('/').pop(),s:r.status,len:r.len}));
+ R.totalKB=Math.round(reqs.reduce((a,r)=>a+r.len,0)/1024);
+ fs.writeFileSync('probe_d.json',JSON.stringify(R,null,1)); console.log(JSON.stringify(R,null,1));
+ await b.close();
+})().catch(e=>{console.error(e);process.exit(1)});

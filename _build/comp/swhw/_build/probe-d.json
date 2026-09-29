@@ -1,0 +1,295 @@
+{
+ "pass": "desktop",
+ "pages": {
+  "home": {
+   "url": "https://sweethomefromwood.com/",
+   "speed": {
+    "ttfb_ms": 625,
+    "dcl_ms": 4034,
+    "load_ms": 5391,
+    "fcp_ms": 5854,
+    "requests": 217,
+    "totalKB": 2010,
+    "jsKB": 761,
+    "jsFiles": 104,
+    "imgKB": 1196,
+    "imgFiles": 32,
+    "thirdPartyHosts": 19,
+    "scriptTags": 54,
+    "images": 124,
+    "lazy": 115,
+    "noAlt": 0,
+    "webpOrAvif": 0,
+    "oversized": 0,
+    "h1": 1,
+    "fonts": 2
+   },
+   "header": {
+    "hasHeader": true,
+    "headerH": 80,
+    "announcement": null,
+    "cartLink": true,
+    "accountLink": false,
+    "search": true,
+    "predictive": true,
+    "navLinks": 274,
+    "langCurrency": true
+   },
+   "hero": {
+    "found": true,
+    "slides": 32,
+    "autoplay": true,
+    "isVideo": false,
+    "heroImg": {
+     "src": "https://sweethomefromwood.com/cdn/shop/files/slideshow-sale-7.jpg?v=1707493349&width=1500",
+     "w": 903,
+     "h": 564,
+     "natural": "1440x900",
+     "srcset": true,
+     "loading": "eager"
+    },
+    "h1": "Montessori furniture and toys for your child’s development",
+    "h1Count": 1,
+    "cta": "",
+    "ctaInFold": true,
+    "heroTextLen": 110
+   },
+   "marketing": {
+    "liveChat": true,
+    "loyalty": false,
+    "referral": false,
+    "popup": true,
+    "newsletter": true,
+    "countdown": false,
+    "klaviyo": true,
+    "omnisend": false,
+    "privy": false,
+    "attentive": false,
+    "postscript": false,
+    "mailchimp": false,
+    "metaPixel": true,
+    "ga4": true,
+    "gtm": null,
+    "tiktok": false,
+    "pinterest": false,
+    "clarity": false,
+    "hotjar": false,
+    "webPixels": "webPixelsConfigList: [{\"id\":\"3146023238\",\"configuration\":\"{\\\"accountID\\\":\\\"WrJfxx\\\",\\\"webPixelConfig\\\":\\\"eyJlbmFibGVBZGRlZFRvQ2FydEV2ZW50cyI6IHRydWV9\\\"}\",\"eventPayloadVersion\":\"v1\",\"runtimeContext\":\"STRICT\",\"scriptVersion\":\"c63c5b72c8d77be5f2d27d14c081da38\",\"type\":\"APP\",\"apiClientId\":123074,\"privacyPurposes\":[\"ANALYTICS\",\"MARKETING\"]",
+    "shopify": true,
+    "theme": {
+     "name": "sweethomefromwood/main",
+     "id": 154646380870,
+     "role": "main"
+    },
+    "apps": [
+     "klaviyo-email-marketing-73",
+     "3.35.0"
+    ],
+    "cookieBanner": false
+   },
+   "stickyHeader": {
+    "atTop": true,
+    "onScrollDown": true,
+    "onScrollUp": true,
+    "scrolledTo": 1300,
+    "hasSearchForm": true,
+    "hasPredictiveSearch": true,
+    "verdict": "STICKY"
+   },
+   "cards": {
+    "cards": 46,
+    "quickAdd": true,
+    "badges": true,
+    "hover": true,
+    "quickView": false,
+    "rating": false,
+    "swatches": true,
+    "ugc": true,
+    "bestSellers": [
+     "Best sellers",
+     "Popular blog posts"
+    ],
+    "firstCardY": 917,
+    "docH": 9558
+   },
+   "footer": {
+    "footerFound": true,
+    "privacy": false,
+    "tos": false,
+    "refund": false,
+    "shipping": false,
+    "faq": false,
+    "contact": false,
+    "paymentIcons": 0,
+    "social": [],
+    "tel": [],
+    "mail": [
+     "mailto:info@sweethomefromwood.com"
+    ],
+    "newsletter": false,
+    "copyright": null,
+    "links": 0
+   },
+   "net": {
+    "requests": 426,
+    "totalKB": 5288,
+    "video": 0,
+    "gif": 0,
+    "meta": 2,
+    "ga": 4,
+    "gtm": 4,
+    "tiktok": 0,
+    "klaviyo": 36,
+    "clarity": 0,
+    "hotjar": 0,
+    "chat": 0,
+    "biggest": [],
+    "errors4xx5xx": []
+   },
+   "consoleErrors": [
+    "Invalid 'X-Frame-Options' header encountered when loading 'https://sweethomefromwood.com/': 'ALLOW-FROM https://sweethomefromwood.com' is not a recognized directive. The header will be ignored.",
+    "ReferenceError: item is not defined",
+    "ReferenceError: item is not defined",
+    "ReferenceError: item is not defined",
+    "ReferenceError: item is not defined",
+    "ReferenceError: item is not defined",
+    "ReferenceError: item is not defined",
+    "TypeError: Cannot read properties of undefined (reading 'classList')",
+    "Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=WrJfxx' from origin 'https://sweethomefromwood.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origi",
+    "Failed to load resource: net::ERR_FAILED"
+   ]
+  },
+  "collection": {
+   "url": "https://sweethomefromwood.com/collections/holiday-gifts",
+   "data": {
+    "h1": "Collection:\nHoliday gifts",
+    "h1Visible": true,
+    "desc": true,
+    "filters": true,
+    "facetLabels": [
+     "Filter"
+    ],
+    "counts": true,
+    "sorting": true,
+    "infinite": false,
+    "pagination": true,
+    "products": 107,
+    "breadcrumbs": false
+   }
+  },
+  "product": {
+   "url": "https://sweethomefromwood.com/products/kids-house-bed-on-legs-with-rails",
+   "speed": {
+    "ttfb_ms": 405,
+    "dcl_ms": 1354,
+    "load_ms": 1723,
+    "fcp_ms": 1102,
+    "requests": 256,
+    "totalKB": 3247,
+    "jsKB": 2332,
+    "jsFiles": 147,
+    "imgKB": 858,
+    "imgFiles": 31,
+    "thirdPartyHosts": 15,
+    "scriptTags": 56,
+    "images": 78,
+    "lazy": 69,
+    "noAlt": 0,
+    "webpOrAvif": 0,
+    "oversized": 16,
+    "h1": 1,
+    "fonts": 2
+   },
+   "data": {
+    "images": 26,
+    "video": false,
+    "threeD": false,
+    "zoom": true,
+    "title": "Wooden house bed on legs with a fence",
+    "priceTxt": "Regular price\n€731,95 EUR \nSale price\n€7",
+    "price": 731.95713,
+    "compareAt": true,
+    "atc": "Add to cart",
+    "variantSelectors": 6,
+    "optionNames": [
+     "Size",
+     "US Crib 52x27 ½\"",
+     "US Twin 39x75\"",
+     "US Twin XL 39x80\"",
+     "US Full 54x75\"",
+     "140x70cm"
+    ],
+    "visualSwatches": true,
+    "soldOutMarked": 0,
+    "sizeGuide": false,
+    "breadcrumbs": false,
+    "scarcity": true,
+    "backInStock": false,
+    "trustBadges": false,
+    "bnpl": false,
+    "accordions": true,
+    "crossSell": true,
+    "reviewApp": "unknown-widget",
+    "starsTxt": "",
+    "reviewPhotos": false,
+    "externalLinks": 0,
+    "swipeGallery": true,
+    "qtyInput": null,
+    "docH": 8296
+   },
+   "stickyAtc": {
+    "mainAtc": "Add to cart",
+    "scrolledTo": 1864,
+    "mainAtcBottom": 784,
+    "visibleAtcAfterScroll": [
+     "Add to cart"
+    ],
+    "pinnedAtc": 1,
+    "verdict": "STICKY ATC PRESENT"
+   },
+   "net": {
+    "requests": 487,
+    "totalKB": 3999,
+    "video": 0,
+    "gif": 0,
+    "meta": 2,
+    "ga": 5,
+    "gtm": 4,
+    "tiktok": 0,
+    "klaviyo": 35,
+    "clarity": 0,
+    "hotjar": 0,
+    "chat": 0,
+    "biggest": [],
+    "errors4xx5xx": []
+   },
+   "consoleErrors": [
+    "Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=WrJfxx' from origin 'https://sweethomefromwood.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origi",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=WrJfxx' from origin 'https://sweethomefromwood.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origi",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=WrJfxx' from origin 'https://sweethomefromwood.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origi",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=WrJfxx' from origin 'https://sweethomefromwood.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origi",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to XMLHttpRequest at 'https://a.klaviyo.com/onsite/track-analytics?company_id=WrJfxx' from origin 'https://sweethomefromwood.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origi",
+    "Failed to load resource: net::ERR_FAILED"
+   ]
+  }
+ },
+ "shots": [
+  "img/now-home-hero-d.jpg",
+  "img/now-home-header-d.jpg",
+  "img/now-home-cards-d.jpg",
+  "img/now-collection-top-d.jpg",
+  "img/now-collection-grid-d.jpg",
+  "img/now-product-top-d.jpg",
+  "img/now-product-buybox-d.jpg",
+  "img/now-product-scrolled-d.jpg",
+  "img/now-product-reviews-d.jpg",
+  "img/now-product-crosssell-d.jpg"
+ ],
+ "errors": [
+  "shot home-footer-d: Error: Node is either not visible or not an HTMLElement"
+ ]
+}

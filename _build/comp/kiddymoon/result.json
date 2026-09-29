@@ -1,0 +1,60 @@
+{
+ "url": "https://kiddymoon.de/",
+ "slug": "kiddymoon",
+ "home": {
+  "shot": "img/kiddymoon-home.jpg",
+  "check": {
+   "atc": null,
+   "stickyAtc": false,
+   "reviewApp": "none",
+   "starsTxt": "4.94 / 5.00",
+   "trustedShops": true,
+   "paypal": true,
+   "klarna": false,
+   "bnpl": false,
+   "shippingBar": false,
+   "shippingText": "var app_shop={urls:{prefix:'data=\"/gfx/'.replace('data=\"', '')+'ger/',graphql:'/graphql/v1/'},vars:{meta:{viewportContent:'initial-scale = 1",
+   "backInStock": false,
+   "bundle": false,
+   "ageGuide": false,
+   "popup": true,
+   "search": true,
+   "chat": false,
+   "drawer": false,
+   "swatches": false,
+   "priceTxt": null,
+   "filters": false,
+   "title": "Spielzeug für Babys und Kleinkinder | KiddyMoon"
+  },
+  "shotMid": "img/kiddymoon-home-mid.jpg"
+ },
+ "product": {},
+ "collection": {
+  "shot": "img/kiddymoon-collection.jpg",
+  "check": {
+   "atc": null,
+   "stickyAtc": false,
+   "reviewApp": "none",
+   "starsTxt": null,
+   "trustedShops": true,
+   "paypal": true,
+   "klarna": false,
+   "bnpl": false,
+   "shippingBar": false,
+   "shippingText": "var app_shop={urls:{prefix:'data=\"/gfx/'.replace('data=\"', '')+'ger/',graphql:'/graphql/v1/'},vars:{meta:{viewportContent:'initial-scale = 1",
+   "backInStock": false,
+   "bundle": false,
+   "ageGuide": false,
+   "popup": true,
+   "search": true,
+   "chat": false,
+   "drawer": false,
+   "swatches": false,
+   "priceTxt": null,
+   "filters": false,
+   "title": "Dein Onlinehändler für Kinderspielzeug: Bällebäder, Plastikbälle, Lernturme"
+  }
+ },
+ "errors": [],
+ "productUrl": null
+}

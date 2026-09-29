@@ -1,0 +1,202 @@
+{
+ "pass": "mobile",
+ "pages": {
+  "home": {
+   "url": "https://expireddomains.com/",
+   "speed": {
+    "ttfb_ms": 376,
+    "dcl_ms": 1146,
+    "load_ms": 5358,
+    "fcp_ms": 1291,
+    "requests": 9,
+    "totalKB": 30,
+    "jsKB": 0,
+    "jsFiles": 1,
+    "imgKB": 0,
+    "imgFiles": 3,
+    "thirdPartyHosts": 1,
+    "scriptTags": 1,
+    "images": 3,
+    "lazy": 0,
+    "noAlt": 1,
+    "webpOrAvif": 0,
+    "oversized": 1,
+    "h1": 1,
+    "fonts": 0
+   },
+   "header": {
+    "hasHeader": true,
+    "headerH": 57,
+    "announcement": null,
+    "cartLink": false,
+    "accountLink": false,
+    "search": false,
+    "predictive": false,
+    "navLinks": 1,
+    "langCurrency": false
+   },
+   "hero": {
+    "found": true,
+    "slides": 0,
+    "autoplay": false,
+    "isVideo": false,
+    "heroImg": null,
+    "h1": "Hunt ~21M domains.\nJust describe what you want.",
+    "h1Count": 1,
+    "cta": "",
+    "ctaInFold": true,
+    "heroTextLen": 342
+   },
+   "marketing": {
+    "liveChat": false,
+    "loyalty": false,
+    "referral": false,
+    "popup": false,
+    "newsletter": false,
+    "countdown": false,
+    "klaviyo": false,
+    "omnisend": false,
+    "privy": false,
+    "attentive": false,
+    "postscript": false,
+    "mailchimp": false,
+    "metaPixel": false,
+    "ga4": true,
+    "gtm": null,
+    "tiktok": false,
+    "pinterest": false,
+    "clarity": false,
+    "hotjar": false,
+    "webPixels": "",
+    "shopify": false,
+    "theme": null,
+    "apps": [],
+    "cookieBanner": false
+   },
+   "mobile": {
+    "tappable": 15,
+    "small": 13,
+    "smallSample": [
+     {
+      "t": "",
+      "w": 192,
+      "h": 34
+     },
+     {
+      "t": "Search Free",
+      "w": 150,
+      "h": 36
+     },
+     {
+      "t": "",
+      "w": 32,
+      "h": 32
+     },
+     {
+      "t": "Fair Price over 1000",
+      "w": 179,
+      "h": 30
+     },
+     {
+      "t": "4 Chars",
+      "w": 93,
+      "h": 30
+     },
+     {
+      "t": "Brandable Names",
+      "w": 164,
+      "h": 30
+     },
+     {
+      "t": "Dynadot Closeouts",
+      "w": 174,
+      "h": 30
+     },
+     {
+      "t": "5 Chars",
+      "w": 92,
+      "h": 30
+     }
+    ],
+    "bodyFs": "16px",
+    "hamburger": false,
+    "hScroll": false,
+    "fullscreenPopup": false,
+    "viewportMeta": "width=device-width, initial-scale=1, viewport-fit=cover",
+    "emailAutocorrect": []
+   },
+   "stickyHeader": {
+    "atTop": true,
+    "onScrollDown": false,
+    "onScrollUp": false,
+    "scrolledTo": 1300,
+    "hasSearchForm": false,
+    "hasPredictiveSearch": false,
+    "verdict": "NOT STICKY — confirm on a screenshot taken after scrolling down then slightly up, before flagging"
+   },
+   "cards": {
+    "cards": 0,
+    "quickAdd": false,
+    "badges": false,
+    "hover": false,
+    "quickView": false,
+    "rating": false,
+    "swatches": false,
+    "ugc": false,
+    "bestSellers": [],
+    "firstCardY": null,
+    "docH": 7912
+   },
+   "footer": {
+    "footerFound": true,
+    "privacy": true,
+    "tos": true,
+    "refund": true,
+    "shipping": false,
+    "faq": false,
+    "contact": false,
+    "paymentIcons": 0,
+    "social": [],
+    "tel": [],
+    "mail": [],
+    "newsletter": false,
+    "copyright": null,
+    "links": 5
+   },
+   "midpage": {
+    "scrollY": 3000,
+    "headerTop": -3000,
+    "ctaVisible": []
+   },
+   "net": {
+    "requests": 11,
+    "totalKB": 34,
+    "video": 0,
+    "gif": 0,
+    "meta": 0,
+    "ga": 0,
+    "gtm": 0,
+    "tiktok": 0,
+    "klaviyo": 0,
+    "clarity": 0,
+    "hotjar": 0,
+    "chat": 0,
+    "biggest": [],
+    "errors4xx5xx": []
+   },
+   "consoleErrors": [
+    "Access to XMLHttpRequest at 'https://new.expireddomains.com/cdn-cgi/challenge-platform/h/b/jsd/oneshot/d76008a69eab/0.9263055533898242:1790668823:e-dIi8Suzjhg8iRZjl89bix2g17BxjId-rGR9aJyMQI/a429be6d8b",
+    "Failed to load resource: net::ERR_FAILED",
+    "Access to manifest at 'https://new.expireddomains.com/ed2assets/site.webmanifest?v=ed2assets' from origin 'https://expireddomains.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin'",
+    "Failed to load resource: net::ERR_FAILED"
+   ]
+  }
+ },
+ "shots": [
+  "img/now-home-hero-m.jpg",
+  "img/now-home-midpage-m.jpg",
+  "img/now-home-cards-m.jpg",
+  "img/now-home-footer-m.jpg"
+ ],
+ "errors": []
+}

@@ -1,0 +1,12 @@
+{
+  "base": "https://tissi.de",
+  "products": null,
+  "productCount": null,
+  "method": "manual (WooCommerce, no products.json)",
+  "collectionUrl": "https://tissi.de/produkt-kategorie/lernturm/",
+  "productUrl": "https://tissi.de/produkt/lernturm-tissi-felix/",
+  "variantId": null,
+  "robots": 200,
+  "sitemap": 200,
+  "shopify": false
+}

@@ -1,0 +1,7 @@
+-rw-r--r--  1 annserputko  staff  17960547 Sep 29 12:05 gif_src.gif
+/opt/homebrew/bin/ffmpeg
+-rw-r--r--  1 annserputko  staff  489443 Sep 29 12:05 gif_as.mp4
+width=768
+height=432
+nb_frames=324
+duration=10.800000

@@ -1,0 +1,29 @@
+[4.7s] discovery done {"shopify":true,"products":106,"method":"products.json"}
+[4.3s] goto https://sweethomefromwood.com/
+[4.6s] goto https://sweethomefromwood.com/
+[12.9s] shot home-hero-d
+[15.1s] shot home-hero-m
+[22.6s] shot home-midpage-m
+[22.6s] d home done
+[22.6s] goto https://sweethomefromwood.com/collections/holiday-gifts
+[24.1s] m home done
+[25.2s] shot home-menu-m
+[25.2s] goto https://sweethomefromwood.com/collections/holiday-gifts
+[27.0s] shot collection-top-d
+[28.1s] shot collection-grid-d
+[28.1s] d collection done
+[28.1s] goto https://sweethomefromwood.com/products/kids-house-bed-on-legs-with-rails
+[29.9s] shot collection-top-m
+[31.0s] shot collection-grid-m
+[31.0s] m collection done
+[31.0s] goto https://sweethomefromwood.com/products/kids-house-bed-on-legs-with-rails
+[32.9s] shot product-top-d
+[35.0s] shot product-top-m
+[35.8s] shot product-scrolled-d
+[38.0s] shot product-scrolled-m
+[40.0s] d product done
+[40.0s] d pass done
+[40.2s] desktop child exit
+[42.6s] m product done
+[42.6s] m pass done
+[42.8s] mobile child exit

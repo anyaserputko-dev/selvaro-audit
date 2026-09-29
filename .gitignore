@@ -1,0 +1,11 @@
+
+# адмінські дані й транскрипти — не публікувати
+.DS_Store
+_build/*.json
+_build/admin_check.json
+_build/done_tasks.json
+_build/preview/
+img/competitors/
+ЗАПИТИ_КЛІЄНТА.md
+КОНКУРЕНТИ.md
+ПЕРЕВІРКА_*.md

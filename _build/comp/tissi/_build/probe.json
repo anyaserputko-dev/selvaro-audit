@@ -1,0 +1,341 @@
+{
+ "url": "https://tissi.de",
+ "date": "2026-09-29T08:56:20.172Z",
+ "label": "tissi",
+ "mobile": {
+  "pages": {
+   "home": {
+    "url": "https://tissi.de/",
+    "speed": {
+     "ttfb_ms": 388,
+     "dcl_ms": 1464,
+     "load_ms": 3584,
+     "fcp_ms": 838,
+     "requests": 250,
+     "totalKB": 2312,
+     "jsKB": 438,
+     "jsFiles": 107,
+     "imgKB": 1321,
+     "imgFiles": 53,
+     "thirdPartyHosts": 1,
+     "scriptTags": 165,
+     "images": 194,
+     "lazy": 45,
+     "noAlt": 137,
+     "webpOrAvif": 5,
+     "oversized": 25,
+     "h1": 0,
+     "fonts": 0
+    },
+    "header": {
+     "hasHeader": true,
+     "headerH": 124,
+     "announcement": null,
+     "cartLink": false,
+     "accountLink": false,
+     "search": true,
+     "predictive": false,
+     "navLinks": 62,
+     "langCurrency": true
+    },
+    "hero": {
+     "found": true,
+     "slides": 13,
+     "autoplay": false,
+     "isVideo": false,
+     "heroImg": {
+      "src": "https://tissi.de/wp-content/uploads/2025/10/Header_ENNO_101024101027_Hausbett_ENNO_90x200_weiss_Textil-gruen_01-768x297.jpg",
+      "w": 390,
+      "h": 250,
+      "natural": "768x297",
+      "srcset": false,
+      "loading": null
+     },
+     "h1": null,
+     "h1Count": 0,
+     "cta": "Zur Produktseite",
+     "ctaInFold": true,
+     "heroTextLen": 79
+    },
+    "marketing": {
+     "liveChat": false,
+     "loyalty": false,
+     "referral": false,
+     "popup": false,
+     "newsletter": false,
+     "countdown": false,
+     "klaviyo": false,
+     "omnisend": false,
+     "privy": false,
+     "attentive": false,
+     "postscript": false,
+     "mailchimp": false,
+     "metaPixel": true,
+     "ga4": true,
+     "gtm": "GTM-K8LZQQ6X",
+     "tiktok": false,
+     "pinterest": false,
+     "clarity": false,
+     "hotjar": false,
+     "webPixels": "",
+     "shopify": false,
+     "theme": null,
+     "apps": [],
+     "cookieBanner": true
+    },
+    "mobile": {
+     "tappable": 41,
+     "small": 22,
+     "smallSample": [
+      {
+       "t": "Zum Inhalt springen",
+       "w": 1,
+       "h": 1
+      },
+      {
+       "t": "",
+       "w": 70,
+       "h": 40
+      },
+      {
+       "t": "Weiter einkaufen",
+       "w": 350,
+       "h": 21
+      },
+      {
+       "t": "Go to slide 1",
+       "w": 28,
+       "h": 12
+      },
+      {
+       "t": "Go to slide 2",
+       "w": 12,
+       "h": 12
+      },
+      {
+       "t": "Go to slide 3",
+       "w": 12,
+       "h": 12
+      },
+      {
+       "t": "In den Warenkorb",
+       "w": 172,
+       "h": 34
+      },
+      {
+       "t": "In den Warenkorb",
+       "w": 172,
+       "h": 34
+      }
+     ],
+     "bodyFs": "16px",
+     "hamburger": false,
+     "hScroll": false,
+     "fullscreenPopup": false,
+     "viewportMeta": "width=device-width, initial-scale=1",
+     "emailAutocorrect": []
+    },
+    "stickyHeader": {
+     "atTop": true,
+     "onScrollDown": true,
+     "onScrollUp": true,
+     "scrolledTo": 1300,
+     "hasSearchForm": true,
+     "hasPredictiveSearch": false,
+     "verdict": "STICKY"
+    },
+    "cards": {
+     "cards": 0,
+     "quickAdd": false,
+     "badges": false,
+     "hover": false,
+     "quickView": false,
+     "rating": false,
+     "swatches": false,
+     "ugc": true,
+     "bestSellers": [],
+     "firstCardY": null,
+     "docH": 4022
+    },
+    "footer": {
+     "footerFound": true,
+     "privacy": false,
+     "tos": false,
+     "refund": false,
+     "shipping": false,
+     "faq": true,
+     "contact": false,
+     "paymentIcons": 0,
+     "social": [],
+     "tel": [
+      "tel:+492675911440"
+     ],
+     "mail": [
+      "mailto:info@tissi.de"
+     ],
+     "newsletter": false,
+     "copyright": "© 2026",
+     "links": 18
+    },
+    "midpage": {
+     "scrollY": 3000,
+     "headerTop": 0,
+     "ctaVisible": []
+    },
+    "net": {
+     "requests": 325,
+     "totalKB": 2389,
+     "video": 0,
+     "gif": 0,
+     "meta": 2,
+     "ga": 0,
+     "gtm": 0,
+     "tiktok": 0,
+     "klaviyo": 0,
+     "clarity": 0,
+     "hotjar": 0,
+     "chat": 0,
+     "biggest": [],
+     "errors4xx5xx": [
+      "https://tissi.de/wp-content/cache/autoptimize/591.js 410"
+     ]
+    },
+    "consoleErrors": [
+     "Failed to load resource: the server responded with a status of 410 ()",
+     "Error: ChunkLoadError\ns.f.j (https://tissi.de/wp-content/cache/autoptimize/autoptimize_single_c9f59a3d0717ec6154c516cd36a9053c.php?minify=false&ver=8d8bb846cc19ac858460:1:9284)"
+    ]
+   },
+   "collection": {
+    "url": "https://tissi.de/produkt-kategorie/lernturm/",
+    "data": {
+     "h1": "Lernturm",
+     "h1Visible": true,
+     "desc": false,
+     "filters": false,
+     "facetLabels": [],
+     "counts": false,
+     "sorting": false,
+     "infinite": false,
+     "pagination": false,
+     "products": 0,
+     "breadcrumbs": true
+    }
+   },
+   "product": {
+    "url": "https://tissi.de/produkt/lernturm-tissi-felix/",
+    "speed": {
+     "ttfb_ms": 184,
+     "dcl_ms": 795,
+     "load_ms": 2181,
+     "fcp_ms": 470,
+     "requests": 250,
+     "totalKB": 28,
+     "jsKB": 10,
+     "jsFiles": 123,
+     "imgKB": 0,
+     "imgFiles": 33,
+     "thirdPartyHosts": 1,
+     "scriptTags": 176,
+     "images": 121,
+     "lazy": 25,
+     "noAlt": 85,
+     "webpOrAvif": 5,
+     "oversized": 20,
+     "h1": 1,
+     "fonts": 0
+    },
+    "data": {
+     "images": 0,
+     "video": false,
+     "threeD": false,
+     "zoom": true,
+     "title": "tiSsi® Lernturm FELIX",
+     "priceTxt": "139,95 €  –  199,95 €Preisspanne: 139,95",
+     "price": 139.95199,
+     "compareAt": true,
+     "atc": "In den Warenkorb",
+     "variantSelectors": 0,
+     "optionNames": [],
+     "visualSwatches": true,
+     "soldOutMarked": 0,
+     "sizeGuide": false,
+     "breadcrumbs": true,
+     "scarcity": false,
+     "backInStock": false,
+     "trustBadges": false,
+     "bnpl": false,
+     "accordions": true,
+     "crossSell": false,
+     "reviewApp": "none",
+     "starsTxt": null,
+     "reviewPhotos": false,
+     "externalLinks": 1,
+     "swipeGallery": false,
+     "qtyInput": "numeric",
+     "docH": 3798
+    },
+    "stickyAtc": {
+     "mainAtc": "In den Warenkorb",
+     "scrolledTo": 2306,
+     "mainAtcBottom": 1293,
+     "visibleAtcAfterScroll": [],
+     "pinnedAtc": 0,
+     "verdict": "NO STICKY ATC — take a screenshot at this scroll position to confirm before flagging"
+    },
+    "net": {
+     "requests": 357,
+     "totalKB": 2731,
+     "video": 0,
+     "gif": 0,
+     "meta": 2,
+     "ga": 0,
+     "gtm": 0,
+     "tiktok": 0,
+     "klaviyo": 0,
+     "clarity": 0,
+     "hotjar": 0,
+     "chat": 0,
+     "biggest": [],
+     "errors4xx5xx": [
+      "https://tissi.de/wp-content/cache/autoptimize/591.js 410"
+     ]
+    },
+    "consoleErrors": [
+     "Failed to load resource: the server responded with a status of 410 ()",
+     "Error: ChunkLoadError\ns.f.j (https://tissi.de/wp-content/cache/autoptimize/autoptimize_single_c9f59a3d0717ec6154c516cd36a9053c.php?minify=false&ver=8d8bb846cc19ac858460:1:9284)",
+     "Failed to load resource: the server responded with a status of 410 ()",
+     "Error: ChunkLoadError\ns.f.j (https://tissi.de/wp-content/cache/autoptimize/autoptimize_single_c9f59a3d0717ec6154c516cd36a9053c.php?minify=false&ver=8d8bb846cc19ac858460:1:9284)",
+     "Failed to load resource: the server responded with a status of 410 ()",
+     "Error: ChunkLoadError\ns.f.j (https://tissi.de/wp-content/cache/autoptimize/autoptimize_single_c9f59a3d0717ec6154c516cd36a9053c.php?minify=false&ver=8d8bb846cc19ac858460:1:9284)"
+    ]
+   }
+  },
+  "shots": [
+   "img/now-home-hero-m.jpg",
+   "img/now-home-midpage-m.jpg",
+   "img/now-home-cards-m.jpg",
+   "img/now-home-footer-m.jpg",
+   "img/now-collection-top-m.jpg",
+   "img/now-collection-grid-m.jpg",
+   "img/now-product-top-m.jpg",
+   "img/now-product-buybox-m.jpg",
+   "img/now-product-scrolled-m.jpg",
+   "img/now-product-reviews-m.jpg",
+   "img/now-product-crosssell-m.jpg"
+  ]
+ },
+ "desktop": {},
+ "discovery": {
+  "base": "https://tissi.de",
+  "products": null,
+  "productCount": null,
+  "method": "manual (WooCommerce, no products.json)",
+  "collectionUrl": "https://tissi.de/produkt-kategorie/lernturm/",
+  "productUrl": "https://tissi.de/produkt/lernturm-tissi-felix/",
+  "variantId": null,
+  "robots": 200,
+  "sitemap": 200,
+  "shopify": false
+ },
+ "errors": []
+}

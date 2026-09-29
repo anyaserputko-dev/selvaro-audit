@@ -1,0 +1,416 @@
+{
+ "pass": "mobile",
+ "pages": {
+  "home": {
+   "url": "https://ettetete.com/",
+   "speed": {
+    "ttfb_ms": 509,
+    "dcl_ms": 6689,
+    "load_ms": 8205,
+    "fcp_ms": 2281,
+    "requests": 391,
+    "totalKB": 20996,
+    "jsKB": 1501,
+    "jsFiles": 237,
+    "imgKB": 19240,
+    "imgFiles": 40,
+    "thirdPartyHosts": 40,
+    "scriptTags": 81,
+    "images": 77,
+    "lazy": 50,
+    "noAlt": 36,
+    "webpOrAvif": 2,
+    "oversized": 3,
+    "h1": 1,
+    "fonts": 4
+   },
+   "header": {
+    "hasHeader": true,
+    "headerH": 0,
+    "announcement": "Worldwide delivery. Free shipping over 60€ to EU, UK & US",
+    "cartLink": true,
+    "accountLink": true,
+    "search": true,
+    "predictive": true,
+    "navLinks": 16,
+    "langCurrency": true
+   },
+   "hero": {
+    "found": true,
+    "slides": 6,
+    "autoplay": true,
+    "isVideo": false,
+    "heroImg": {
+     "src": "https://ettetete.com/cdn/shop/files/Website_header_-_MAIN_IMAGE.jpg?v=1784731119&width=1100",
+     "w": 390,
+     "h": 200,
+     "natural": "390x130",
+     "srcset": true,
+     "loading": "eager"
+    },
+    "h1": "Montessori-inspired wooden furniture & activity toys",
+    "h1Count": 1,
+    "cta": "SHOP NOW",
+    "ctaInFold": true,
+    "heroTextLen": 300
+   },
+   "marketing": {
+    "liveChat": false,
+    "loyalty": false,
+    "referral": false,
+    "popup": false,
+    "newsletter": true,
+    "countdown": false,
+    "klaviyo": true,
+    "omnisend": false,
+    "privy": false,
+    "attentive": false,
+    "postscript": false,
+    "mailchimp": false,
+    "metaPixel": false,
+    "ga4": true,
+    "gtm": "GTM-NDXWZKB",
+    "tiktok": true,
+    "pinterest": true,
+    "clarity": false,
+    "hotjar": true,
+    "webPixels": "webPixelsConfigList: [{\"id\":\"3793813842\",\"configuration\":\"{\\\"accountID\\\":\\\"MkWswc\\\",\\\"webPixelConfig\\\":\\\"eyJlbmFibGVBZGRlZFRvQ2FydEV2ZW50cyI6IHRydWV9\\\"}\",\"eventPayloadVersion\":\"v1\",\"runtimeContext\":\"STRICT\",\"scriptVersion\":\"c63c5b72c8d77be5f2d27d14c081da38\",\"type\":\"APP\",\"apiClientId\":123074,\"privacyPurposes\":[\"ANALYTICS\",\"MARKETING\"]",
+    "shopify": true,
+    "theme": {
+     "name": "Dawn - 9.0.0 - Friction (Live 17.08.26) US landing",
+     "id": 205668811090,
+     "role": "main"
+    },
+    "apps": [
+     "gift-box-builder-1-470",
+     "gdpr-cookie-consent-411",
+     "essential-announcement-bar-120",
+     "snap-price-design-icon-291",
+     "product-label-4-402",
+     "lb-upsell-450",
+     "seguno-popups-13",
+     "cartbite-83",
+     "ecomposer-144",
+     "smart-menu-112",
+     "essential-pre-order-presale-3660"
+    ],
+    "cookieBanner": false
+   },
+   "mobile": {
+    "tappable": 52,
+    "small": 19,
+    "smallSample": [
+     {
+      "t": "",
+      "w": 43,
+      "h": 24
+     },
+     {
+      "t": "",
+      "w": 89,
+      "h": 19
+     },
+     {
+      "t": "",
+      "w": 174,
+      "h": 25
+     },
+     {
+      "t": "",
+      "w": 128,
+      "h": 25
+     },
+     {
+      "t": "",
+      "w": 32,
+      "h": 32
+     },
+     {
+      "t": "",
+      "w": 32,
+      "h": 32
+     },
+     {
+      "t": "",
+      "w": 32,
+      "h": 32
+     },
+     {
+      "t": "",
+      "w": 32,
+      "h": 32
+     }
+    ],
+    "bodyFs": "15px",
+    "hamburger": true,
+    "hScroll": false,
+    "fullscreenPopup": false,
+    "viewportMeta": "width=device-width,initial-scale=1",
+    "emailAutocorrect": [
+     {
+      "ac": "email",
+      "acr": "off",
+      "im": null
+     }
+    ]
+   },
+   "stickyHeader": {
+    "atTop": true,
+    "onScrollDown": false,
+    "onScrollUp": false,
+    "scrolledTo": 1300,
+    "hasSearchForm": true,
+    "hasPredictiveSearch": true,
+    "verdict": "NOT STICKY — confirm on a screenshot taken after scrolling down then slightly up, before flagging"
+   },
+   "cards": {
+    "cards": 24,
+    "quickAdd": false,
+    "badges": true,
+    "hover": true,
+    "quickView": false,
+    "rating": true,
+    "swatches": false,
+    "ugc": true,
+    "bestSellers": [
+     "Our Bestsellers"
+    ],
+    "firstCardY": 868,
+    "docH": 8409
+   },
+   "footer": {
+    "footerFound": true,
+    "privacy": false,
+    "tos": false,
+    "refund": false,
+    "shipping": false,
+    "faq": false,
+    "contact": false,
+    "paymentIcons": 0,
+    "social": [],
+    "tel": [
+     "tel:+371-257-04-040",
+     "tel:+371 257 04 040"
+    ],
+    "mail": [
+     "mailto:support@ettetete.com",
+     "mailto:support@ettetete.com",
+     "mailto:support@ettetete.com"
+    ],
+    "newsletter": false,
+    "copyright": null,
+    "links": 0
+   },
+   "midpage": {
+    "scrollY": 3000,
+    "headerTop": -2951,
+    "ctaVisible": [
+     "Height-extendable legs • Add-o",
+     "Felt Pads • Add-on for furnitu"
+    ]
+   },
+   "net": {
+    "requests": 529,
+    "totalKB": 55589,
+    "video": 6,
+    "gif": 2,
+    "meta": 2,
+    "ga": 3,
+    "gtm": 4,
+    "tiktok": 19,
+    "klaviyo": 12,
+    "clarity": 0,
+    "hotjar": 3,
+    "chat": 0,
+    "biggest": [
+     {
+      "url": "https://ettetete.com/cdn/shop/files/certificates-2.gif?v=1744202949",
+      "KB": 12284,
+      "type": "image"
+     },
+     {
+      "url": "https://scontent.cdninstagram.com/o1/v/t2/f2/m86/AQM5q1GYQCeRnKim7kVLqjpG3o8j_dUL4dKUNVshC_E69ST0Rh71TK30M9NhDEJoLa3vu_p",
+      "KB": 12019,
+      "type": "media"
+     },
+     {
+      "url": "https://scontent.cdninstagram.com/o1/v/t2/f2/m86/AQNhRmyDpGP9w-DBGdWmJ7QqQj5qJLv7FQrkJF1gV3v423UJFFszsOgTEFIQml89NmFtiIe",
+      "KB": 11085,
+      "type": "media"
+     },
+     {
+      "url": "https://ettetete.com/cdn/shop/files/aroverlay-1.gif?v=1744637276",
+      "KB": 6160,
+      "type": "image"
+     },
+     {
+      "url": "https://scontent.cdninstagram.com/o1/v/t2/f2/m86/AQPuWFAa65c7UibBJTozo0TOaaZIp85kCBN0RhAc2TwXbPVqp94BdJ7a1eAf_5wJo4debGk",
+      "KB": 3429,
+      "type": "media"
+     },
+     {
+      "url": "https://scontent.cdninstagram.com/o1/v/t2/f2/m86/AQOjLnepfcIlRAIRQUk8thowcJibZkvecv9RhsGyNzeEHJle-alzjonZPxkDpx3-EYeFzXc",
+      "KB": 3098,
+      "type": "media"
+     },
+     {
+      "url": "https://scontent.cdninstagram.com/o1/v/t2/f2/m86/AQNssnuvpUlGWL06Gh69AywkFA9Phds7SDVDFxSEWa07A2A7La296_cQ6pUuJVqOIgsKazW",
+      "KB": 1264,
+      "type": "media"
+     },
+     {
+      "url": "https://scontent.cdninstagram.com/o1/v/t2/f2/m86/AQPl56xKWOlzIzxz2uvTV1-IK3pyaQ9LHoimwgB7iYyG8_f2HolTRjZcgDj63n_PQA0oBWR",
+      "KB": 1172,
+      "type": "media"
+     }
+    ],
+    "errors4xx5xx": [
+     "https://ettetete.com/sf_private_access_tokens 401",
+     "https://cdn.matomo.cloud/ettetete.matomo.cloud/matomo.js 404"
+    ]
+   },
+   "consoleErrors": [
+    "SyntaxError: Unexpected token '<'",
+    "Failed to load resource: the server responded with a status of 401 ()",
+    "ReferenceError: onTouchStart is not defined",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "ReferenceError: CartItems is not defined"
+   ]
+  },
+  "collection": {
+   "url": "https://ettetete.com/collections/montessori-furniture",
+   "data": {
+    "h1": "Collection:\nMontessori furniture",
+    "h1Visible": true,
+    "desc": true,
+    "filters": true,
+    "facetLabels": [
+     "Sort"
+    ],
+    "counts": true,
+    "sorting": true,
+    "infinite": false,
+    "pagination": true,
+    "products": 16,
+    "breadcrumbs": true
+   }
+  },
+  "product": {
+   "url": "https://ettetete.com/products/tulla-dual-height-kids-table-outlet",
+   "speed": {
+    "ttfb_ms": 206,
+    "dcl_ms": 758,
+    "load_ms": 2098,
+    "fcp_ms": 510,
+    "requests": 386,
+    "totalKB": 677,
+    "jsKB": 94,
+    "jsFiles": 240,
+    "imgKB": 564,
+    "imgFiles": 31,
+    "thirdPartyHosts": 39,
+    "scriptTags": 90,
+    "images": 44,
+    "lazy": 24,
+    "noAlt": 17,
+    "webpOrAvif": 1,
+    "oversized": 7,
+    "h1": 1,
+    "fonts": 4
+   },
+   "data": {
+    "images": 21,
+    "video": false,
+    "threeD": false,
+    "zoom": true,
+    "title": "TULLA • Dual-Height Kids Table • OUTLET",
+    "priceTxt": "Regular price\n€88.00 \nSale price\n€66.00S",
+    "price": 88.0066,
+    "compareAt": true,
+    "atc": "+ ADD TO CART",
+    "variantSelectors": 3,
+    "optionNames": [
+     "Color",
+     "Variant sold out or unavailable",
+     "Variant sold out or unavailable",
+     "Variant sold out or unavailable",
+     "Quantity\n                  \n                    \n                      \n                        \n                          \n                        \n                      \n                    \n                    (0 in cart)"
+    ],
+    "visualSwatches": false,
+    "soldOutMarked": 0,
+    "sizeGuide": false,
+    "breadcrumbs": true,
+    "scarcity": true,
+    "backInStock": false,
+    "trustBadges": true,
+    "bnpl": false,
+    "accordions": true,
+    "crossSell": true,
+    "reviewApp": "Loox",
+    "starsTxt": "",
+    "reviewPhotos": false,
+    "externalLinks": 1,
+    "swipeGallery": true,
+    "qtyInput": null,
+    "docH": 9188
+   },
+   "stickyAtc": {
+    "mainAtc": "Add Text",
+    "scrolledTo": 1013,
+    "mainAtcBottom": 0,
+    "visibleAtcAfterScroll": [
+     "+ ADD TO CART"
+    ],
+    "pinnedAtc": 0,
+    "verdict": "NO STICKY ATC — take a screenshot at this scroll position to confirm before flagging"
+   },
+   "net": {
+    "requests": 524,
+    "totalKB": 5897,
+    "video": 0,
+    "gif": 0,
+    "meta": 2,
+    "ga": 4,
+    "gtm": 4,
+    "tiktok": 19,
+    "klaviyo": 13,
+    "clarity": 0,
+    "hotjar": 3,
+    "chat": 0,
+    "biggest": [],
+    "errors4xx5xx": [
+     "https://ettetete.com/sf_private_access_tokens 401",
+     "https://cdn.matomo.cloud/ettetete.matomo.cloud/matomo.js 404"
+    ]
+   },
+   "consoleErrors": [
+    "SyntaxError: Unexpected token '<'",
+    "ReferenceError: onTouchStart is not defined",
+    "ReferenceError: CartItems is not defined",
+    "Failed to load resource: the server responded with a status of 404 ()",
+    "Failed to load resource: the server responded with a status of 401 ()",
+    "SyntaxError: Unexpected token '<'",
+    "Failed to load resource: the server responded with a status of 401 ()",
+    "ReferenceError: onTouchStart is not defined",
+    "ReferenceError: CartItems is not defined",
+    "Failed to load resource: the server responded with a status of 404 ()"
+   ]
+  }
+ },
+ "shots": [
+  "img/now-home-hero-m.jpg",
+  "img/now-home-midpage-m.jpg",
+  "img/now-home-cards-m.jpg",
+  "img/now-home-menu-m.jpg",
+  "img/now-collection-top-m.jpg",
+  "img/now-collection-grid-m.jpg",
+  "img/now-product-top-m.jpg",
+  "img/now-product-buybox-m.jpg",
+  "img/now-product-scrolled-m.jpg",
+  "img/now-product-reviews-m.jpg",
+  "img/now-product-crosssell-m.jpg"
+ ],
+ "errors": [
+  "shot home-footer-m: Error: Node is either not visible or not an HTMLElement"
+ ]
+}

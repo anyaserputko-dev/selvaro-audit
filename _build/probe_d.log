@@ -1,0 +1,26 @@
+[1.7s] goto https://selvaro.de/
+[6.3s] shot home-hero-d
+[14.2s] d home done
+[14.2s] goto https://selvaro.de/collections/all
+[17.6s] shot collection-top-d
+[18.7s] shot collection-grid-d
+[18.7s] d collection done
+[18.7s] goto https://selvaro.de/products/lernturm-klappbar
+[22.6s] shot product-top-d
+[25.6s] shot product-scrolled-d
+[28.7s] shot product-crosssell-d
+[28.7s] d product done
+[28.7s] goto https://selvaro.de/cart/add?id=65622087270749&quantity=1
+[31.6s] goto https://selvaro.de/cart
+[34.5s] shot cart-page-d
+[35.5s] TIMEOUT stepScroll
+[35.5s] shot cart-bottom-d
+[35.5s] goto https://selvaro.de/
+[36.1s] TIMEOUT evaluate
+[36.2s] TIMEOUT evaluate
+[36.2s] TIMEOUT evaluate
+[36.2s] TIMEOUT evaluate
+[36.3s] TIMEOUT evaluate
+[39.9s] shot cart-drawer-home-d
+[39.9s] d pass done
+[40.2s] desktop child exit
