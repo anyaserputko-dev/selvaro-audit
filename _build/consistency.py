@@ -37,15 +37,15 @@ if not sm or int(sm.group(1))!=TH or int(sm.group(2).replace(',',''))!=TP: fail.
 print('subtotals',subs,'total',TH,TP)
 # divider counts and cover/kpi counts
 cnt={g:sum(1 for x in slides if x[1]==g) for g in order}
-for g,pat in [('crit',r'<span class="sev crit">First wave</span>\s*<h2>(\d+) changes'),('imp',r'<span class="sev imp">Second wave</span>\s*<h2>(\d+) changes'),('low',r'<span class="sev low">Small fixes</span>\s*<h2>(\d+) items')]:
+for g,pat in [('crit',r'<span class="sev crit">Critical</span>\s*<h2>(\d+) changes'),('imp',r'<span class="sev imp">Medium</span>\s*<h2>(\d+) changes'),('low',r'<span class="sev low">Small fix</span>\s*<h2>(\d+)')]:
     m=re.search(pat,s); 
     if not m or int(m.group(1))!=cnt[g]: fail.append(f'divider {g} {m and m.group(1)} != {cnt[g]}')
-for g,pat in [('crit',r'<a href="#critical">(\d+) first-wave'),('imp',r'<a href="#medium">(\d+) second-wave'),('low',r'<a href="#low">(\d+) small fixes')]:
+for g,pat in [('crit',r'<a href="#critical">(\d+) critical'),('imp',r'<a href="#medium">(\d+) medium'),('low',r'<a href="#low">(\d+) small fixes')]:
     m=re.search(pat,s)
     if not m or int(m.group(1))!=cnt[g]: fail.append(f'toc {g} {m and m.group(1)} != {cnt[g]}')
 kp=re.findall(r'<div class="kpi"><b>([^<]+)</b><span>([^<]+)</span>',s)
 kd=dict((b,a) for a,b in kp)
-if kd.get('First wave')!=str(cnt['crit']) or kd.get('Second wave')!=str(cnt['imp']) or kd.get('Small fixes')!=str(cnt['low']) or kd.get('Dev time')!=f'{TH} h' or kd.get('Fixed price')!=f'${format(TP,",")}': fail.append(f'kpis {kd}')
+if kd.get('Critical')!=str(cnt['crit']) or kd.get('Medium')!=str(cnt['imp']) or kd.get('Small fixes')!=str(cnt['low']) or kd.get('Dev time')!=f'{TH} h' or kd.get('Fixed price')!=f'${format(TP,",")}': fail.append(f'kpis {kd}')
 if f'Fourteen items' not in plain and len(slides)==14: pass
 # images exist
 imgs=set(re.findall(r'src="img/([^"]+)"',s)); missing=[i for i in imgs if not os.path.exists(os.path.join(ROOT,'img',i))]
@@ -65,7 +65,8 @@ allowed=set(); flat(V,allowed); allowed|={n.replace(',','') for n in allowed}
 for n in range(1,15): allowed.add(str(n)); allowed.add('%02d'%n)
 allowed|={str(h) for *_,h,p in slides}|{str(p) for *_,h,p in slides}|{str(TH),str(TP),str(cp) if False else ''}
 cp,mp,lp=groups['crit'][1],groups['imp'][1],groups['low'][1]
-allowed|={str(v) for v in [cp,mp,lp,TH,TP,RATE,40,80,120,240,2026,2024,28,390,844,1440,900,19,168636,1024,9,41,51,10,52,16]}
+allowed|={str(groups[g][0]) for g in groups}
+allowed|={str(v) for v in [cp,mp,lp,TH,TP,RATE,20,40,80,120,240,2026,29,390,844,1440,900,19,168636,9,41]}
 found=re.findall(r'\d[\d,]*(?:\.\d+)?',plain)
 unk=sorted({f for f in found if f.replace(',','') not in allowed and f not in allowed})
 print('numbers not in verify.json:',unk or 'none'); fail+=unk

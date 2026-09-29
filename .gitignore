@@ -9,3 +9,8 @@ img/competitors/
 ЗАПИТИ_КЛІЄНТА.md
 КОНКУРЕНТИ.md
 ПЕРЕВІРКА_*.md
+
+_build/comp/
+_build/*.gif
+_build/*.mp4
+_build/*.log
