@@ -37,15 +37,15 @@ if not sm or int(sm.group(1))!=TH or int(sm.group(2).replace(',',''))!=TP: fail.
 print('subtotals',subs,'total',TH,TP)
 # divider counts and cover/kpi counts
 cnt={g:sum(1 for x in slides if x[1]==g) for g in order}
-for g,pat in [('crit',r'<span class="sev crit">Critical</span>\s*<h2>(\d+) changes'),('imp',r'<span class="sev imp">Medium</span>\s*<h2>(\d+) changes'),('low',r'<span class="sev low">Small fix</span>\s*<h2>(\d+)')]:
+for g,pat in [('crit',r'<span class="sev crit">(?:Critical|First wave)</span>\s*<h2>(\d+) changes'),('imp',r'<span class="sev imp">(?:Medium|Second wave)</span>\s*<h2>(\d+) changes'),('low',r'<span class="sev low">Small fix</span>\s*<h2>(\d+)')]:
     m=re.search(pat,s); 
     if not m or int(m.group(1))!=cnt[g]: fail.append(f'divider {g} {m and m.group(1)} != {cnt[g]}')
-for g,pat in [('crit',r'<a href="#critical">(\d+) critical'),('imp',r'<a href="#medium">(\d+) medium'),('low',r'<a href="#low">(\d+) small fixes')]:
+for g,pat in [('crit',r'<a href="#critical">(\d+) (?:critical|first-wave)'),('imp',r'<a href="#medium">(\d+) (?:medium|second-wave)'),('low',r'<a href="#low">(\d+) small fixes')]:
     m=re.search(pat,s)
     if not m or int(m.group(1))!=cnt[g]: fail.append(f'toc {g} {m and m.group(1)} != {cnt[g]}')
 kp=re.findall(r'<div class="kpi"><b>([^<]+)</b><span>([^<]+)</span>',s)
 kd=dict((b,a) for a,b in kp)
-if kd.get('Critical')!=str(cnt['crit']) or kd.get('Medium')!=str(cnt['imp']) or kd.get('Small fixes')!=str(cnt['low']) or kd.get('Dev time')!=f'{TH} h' or kd.get('Fixed price')!=f'${format(TP,",")}': fail.append(f'kpis {kd}')
+if (kd.get('Critical') or kd.get('First wave'))!=str(cnt['crit']) or (kd.get('Medium') or kd.get('Second wave'))!=str(cnt['imp']) or kd.get('Small fixes')!=str(cnt['low']) or kd.get('Dev time')!=f'{TH} h' or kd.get('Fixed price')!=f'${format(TP,",")}': fail.append(f'kpis {kd}')
 if f'Fourteen items' not in plain and len(slides)==14: pass
 # images exist
 imgs=set(re.findall(r'src="img/([^"]+)"',s)); missing=[i for i in imgs if not os.path.exists(os.path.join(ROOT,'img',i))]
