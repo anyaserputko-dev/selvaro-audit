@@ -13,21 +13,21 @@ for m in re.finditer(r'<span class="num">(\d+)</span><h2><span class="sev (\w+)"
     if sev=='extra':
         if 'class="ptag"' not in seg: fail.append(f'slide {num}: no price tag')
         props.append(num); print(f'  slide {num} [{lab:12}] {title.strip()[:55]} (proposal)'); continue
-    pt=re.search(r'<div class="ptag"><span>Price</span><b>€([\d,]+)</b><em>(\d+) h',seg)
+    pt=re.search(r'<div class="ptag"><span>Price</span><b>\$([\d,]+)</b><em>(\d+) h',seg)
     if not pt: fail.append(f'slide {num}: no price/hours tag'); continue
     price=int(pt.group(1).replace(',','')); hrs=int(pt.group(2)); slides.append((num,sev,lab,title.strip(),hrs,price))
-    if price!=hrs*RATE: fail.append(f'slide {num} €{price} != {hrs}*{RATE}')
-    print(f'  slide {num} [{lab:12}] {title.strip()[:55]:55} {hrs:>2} h €{price}')
-if '$' in plain: fail.append('dollar sign in deck (EUR only)')
+    if price!=hrs*RATE: fail.append(f'slide {num} ${price} != {hrs}*{RATE}')
+    print(f'  slide {num} [{lab:12}] {title.strip()[:55]:55} {hrs:>2} h ${price}')
+if re.search(r'(?<!Noch )€\d',plain): fail.append('our prices must be in USD, € only for store facts')
 for sec in ['Proven results','Questions before we start','Bewertungen']:
     if sec in plain: fail.append('removed content back: '+sec)
 nums=sorted([int(x[0]) for x in slides]+[int(x) for x in props])
 if nums!=list(range(1,len(nums)+1)): fail.append(f'numbering {nums}')
 rows=re.findall(r'<div class="prow(?: prop)?"[^>]*><i>([^<]*)</i><span[^>]*>(.*?)</span><em[^>]*>([^<]+)</em><b[^>]*>([^<]+)</b></div>',s)
 print('price rows:',rows)
-if len(rows)!=3 or not all(r[3].startswith('€') for r in rows): fail.append('pricing must be 3 EUR lines')
+if len(rows)!=3 or not all(r[3].startswith('$') for r in rows): fail.append('pricing must be 3 USD lines')
 TH0=sum(x[4] for x in slides)
-if rows and (rows[0][3]!=f'€{TH0*RATE:,}' or f'{TH0} h' not in rows[0][2]): fail.append(f'store line {rows[0][2:]} != {TH0} h €{TH0*RATE}')
+if rows and (rows[0][3]!=f'${TH0*RATE:,}' or f'{TH0} h' not in rows[0][2]): fail.append(f'store line {rows[0][2:]} != {TH0} h €{TH0*RATE}')
 order=['crit','imp','low']; groups={g:[0,0] for g in order}
 cnt={g:sum(1 for x in slides if x[1]==g) for g in order}
 for g,pat in [('crit',r'<span class="sev crit">(?:Critical|First wave)</span>\s*<h2>(\d+) changes'),('imp',r'<span class="sev imp">(?:Medium|Second wave)</span>\s*<h2>(\d+) changes'),('low',r'<span class="sev low">Small fix</span>\s*<h2>(\d+)')]:
